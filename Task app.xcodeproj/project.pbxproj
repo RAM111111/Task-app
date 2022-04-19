@@ -3,27 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11049E0D27C511550006CD16 /* WeakDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11049E0C27C511550006CD16 /* WeakDateCell.swift */; };
+		11049E0F27C5662D0006CD16 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11049E0E27C5662D0006CD16 /* TaskCell.swift */; };
+		110D171627C8C6F500C4239C /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D171527C8C6F500C4239C /* TaskModel.swift */; };
+		110D171827C926E400C4239C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D171727C926E400C4239C /* Login.swift */; };
+		110D171A27C9627F00C4239C /* addNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D171927C9627F00C4239C /* addNewTask.swift */; };
+		114E6DB327E827FA00209A8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 114E6DB227E827FA00209A8A /* GoogleService-Info.plist */; };
+		114E6DB627E8291700209A8A /* TaskDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114E6DB527E8291700209A8A /* TaskDB.swift */; };
+		1193DBBB27D1E7CD00CCD5EA /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193DBBA27D1E7CD00CCD5EA /* RegisterVC.swift */; };
+		1193DBBF27D2BC5400CCD5EA /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193DBBE27D2BC5400CCD5EA /* DB.swift */; };
+		1193DBC927D5B11100CCD5EA /* SM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193DBC827D5B11100CCD5EA /* SM.swift */; };
 		11CD0CD527C26976003176A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD0CD427C26976003176A1 /* AppDelegate.swift */; };
 		11CD0CD727C26976003176A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD0CD627C26976003176A1 /* SceneDelegate.swift */; };
 		11CD0CD927C26976003176A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD0CD827C26976003176A1 /* ViewController.swift */; };
-		11CD0CDC27C26976003176A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CD0CDA27C26976003176A1 /* Main.storyboard */; };
 		11CD0CDE27C269AC003176A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CD0CDD27C269AC003176A1 /* Assets.xcassets */; };
 		11CD0CE127C269AC003176A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CD0CDF27C269AC003176A1 /* LaunchScreen.storyboard */; };
+		11CD0CE927C26F4C003176A1 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD0CE827C26F4C003176A1 /* extension.swift */; };
+		11CD0CEB27C29B62003176A1 /* takViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD0CEA27C29B62003176A1 /* takViewModel.swift */; };
+		11CE00F027F0010900E5E0DA /* VM-ValidateLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE00EF27F0010800E5E0DA /* VM-ValidateLogIn.swift */; };
+		11CE011627F0283900E5E0DA /* VM-ProfileIMG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE011527F0283900E5E0DA /* VM-ProfileIMG.swift */; };
+		11CE011827F028EC00E5E0DA /* VM-TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE011727F028EC00E5E0DA /* VM-TaskDelegate.swift */; };
+		11CE011A27F0299000E5E0DA /* VM-TaskDatafunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE011927F0299000E5E0DA /* VM-TaskDatafunc.swift */; };
+		11EFC08F280D2472003B2A1D /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFC08E280D2472003B2A1D /* Validate.swift */; };
+		A41681FC8435D958ADA1985D /* Pods_Task_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3FD9861A258AF431758F81 /* Pods_Task_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11049E0C27C511550006CD16 /* WeakDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakDateCell.swift; sourceTree = "<group>"; };
+		11049E0E27C5662D0006CD16 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		110D171527C8C6F500C4239C /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		110D171727C926E400C4239C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		110D171927C9627F00C4239C /* addNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNewTask.swift; sourceTree = "<group>"; };
+		114E6DB227E827FA00209A8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		114E6DB527E8291700209A8A /* TaskDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDB.swift; sourceTree = "<group>"; };
+		1193DBBA27D1E7CD00CCD5EA /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		1193DBBE27D2BC5400CCD5EA /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		1193DBC827D5B11100CCD5EA /* SM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM.swift; sourceTree = "<group>"; };
 		11CD0CD127C26976003176A1 /* Task app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CD0CD427C26976003176A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11CD0CD627C26976003176A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		11CD0CD827C26976003176A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		11CD0CDB27C26976003176A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11CD0CDD27C269AC003176A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11CD0CE027C269AC003176A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		11CD0CE227C269AC003176A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11CD0CE227C269AC003176A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		11CD0CE827C26F4C003176A1 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		11CD0CEA27C29B62003176A1 /* takViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takViewModel.swift; sourceTree = "<group>"; };
+		11CE00EF27F0010800E5E0DA /* VM-ValidateLogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VM-ValidateLogIn.swift"; sourceTree = "<group>"; };
+		11CE011527F0283900E5E0DA /* VM-ProfileIMG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VM-ProfileIMG.swift"; sourceTree = "<group>"; };
+		11CE011727F028EC00E5E0DA /* VM-TaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VM-TaskDelegate.swift"; sourceTree = "<group>"; };
+		11CE011927F0299000E5E0DA /* VM-TaskDatafunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VM-TaskDatafunc.swift"; sourceTree = "<group>"; };
+		11EFC08E280D2472003B2A1D /* Validate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validate.swift; sourceTree = "<group>"; };
+		1646E95406EED0AF3BAE2A37 /* Pods-Task app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task app.debug.xcconfig"; path = "Target Support Files/Pods-Task app/Pods-Task app.debug.xcconfig"; sourceTree = "<group>"; };
+		7A3FD9861A258AF431758F81 /* Pods_Task_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80B48CC3C8AE3305873FC72 /* Pods-Task app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task app.release.xcconfig"; path = "Target Support Files/Pods-Task app/Pods-Task app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41681FC8435D958ADA1985D /* Pods_Task_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		110D171B27CB78D500C4239C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1193DBB927D1E76C00CCD5EA /* LogReg */,
+				11CD0CD827C26976003176A1 /* ViewController.swift */,
+				11049E0C27C511550006CD16 /* WeakDateCell.swift */,
+				11049E0E27C5662D0006CD16 /* TaskCell.swift */,
+				110D171927C9627F00C4239C /* addNewTask.swift */,
+				11EFC08E280D2472003B2A1D /* Validate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		110D171C27CB78F600C4239C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				110D171527C8C6F500C4239C /* TaskModel.swift */,
+				1193DBBE27D2BC5400CCD5EA /* DB.swift */,
+				114E6DB527E8291700209A8A /* TaskDB.swift */,
+				1193DBC827D5B11100CCD5EA /* SM.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		110D171D27CB791600C4239C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				11CD0CE827C26F4C003176A1 /* extension.swift */,
+				11CD0CD427C26976003176A1 /* AppDelegate.swift */,
+				11CD0CD627C26976003176A1 /* SceneDelegate.swift */,
+				11CD0CDD27C269AC003176A1 /* Assets.xcassets */,
+				11CD0CDF27C269AC003176A1 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		110D171E27CB793D00C4239C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11CD0CEA27C29B62003176A1 /* takViewModel.swift */,
+				11CE00EF27F0010800E5E0DA /* VM-ValidateLogIn.swift */,
+				11CE011527F0283900E5E0DA /* VM-ProfileIMG.swift */,
+				11CE011727F028EC00E5E0DA /* VM-TaskDelegate.swift */,
+				11CE011927F0299000E5E0DA /* VM-TaskDatafunc.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1193DBB927D1E76C00CCD5EA /* LogReg */ = {
+			isa = PBXGroup;
+			children = (
+				110D171727C926E400C4239C /* Login.swift */,
+				1193DBBA27D1E7CD00CCD5EA /* RegisterVC.swift */,
+			);
+			path = LogReg;
+			sourceTree = "<group>";
+		};
 		11CD0CC827C26975003176A1 = {
 			isa = PBXGroup;
 			children = (
 				11CD0CD327C26976003176A1 /* Task app */,
 				11CD0CD227C26976003176A1 /* Products */,
+				98AE0E2B96FFECE48F06386A /* Pods */,
+				50475875470A17AE9862D375 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +152,31 @@
 		11CD0CD327C26976003176A1 /* Task app */ = {
 			isa = PBXGroup;
 			children = (
-				11CD0CD427C26976003176A1 /* AppDelegate.swift */,
-				11CD0CD627C26976003176A1 /* SceneDelegate.swift */,
-				11CD0CD827C26976003176A1 /* ViewController.swift */,
-				11CD0CDA27C26976003176A1 /* Main.storyboard */,
-				11CD0CDD27C269AC003176A1 /* Assets.xcassets */,
-				11CD0CDF27C269AC003176A1 /* LaunchScreen.storyboard */,
 				11CD0CE227C269AC003176A1 /* Info.plist */,
+				114E6DB227E827FA00209A8A /* GoogleService-Info.plist */,
+				110D171D27CB791600C4239C /* Other */,
+				110D171B27CB78D500C4239C /* View */,
+				110D171E27CB793D00C4239C /* ViewModel */,
+				110D171C27CB78F600C4239C /* Model */,
 			);
 			path = "Task app";
+			sourceTree = "<group>";
+		};
+		50475875470A17AE9862D375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A3FD9861A258AF431758F81 /* Pods_Task_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98AE0E2B96FFECE48F06386A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1646E95406EED0AF3BAE2A37 /* Pods-Task app.debug.xcconfig */,
+				C80B48CC3C8AE3305873FC72 /* Pods-Task app.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11CD0CE527C269AC003176A1 /* Build configuration list for PBXNativeTarget "Task app" */;
 			buildPhases = (
+				AD80034D015B6862A283A993 /* [CP] Check Pods Manifest.lock */,
 				11CD0CCD27C26976003176A1 /* Sources */,
 				11CD0CCE27C26976003176A1 /* Frameworks */,
 				11CD0CCF27C26976003176A1 /* Resources */,
+				EBD109DAE86C252EE3AC6D7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +241,53 @@
 			files = (
 				11CD0CE127C269AC003176A1 /* LaunchScreen.storyboard in Resources */,
 				11CD0CDE27C269AC003176A1 /* Assets.xcassets in Resources */,
-				11CD0CDC27C26976003176A1 /* Main.storyboard in Resources */,
+				114E6DB327E827FA00209A8A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD80034D015B6862A283A993 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Task app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD109DAE86C252EE3AC6D7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Task app/Pods-Task app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Task app/Pods-Task app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Task app/Pods-Task app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		11CD0CCD27C26976003176A1 /* Sources */ = {
@@ -139,22 +295,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				11CD0CD927C26976003176A1 /* ViewController.swift in Sources */,
+				110D171827C926E400C4239C /* Login.swift in Sources */,
+				11049E0F27C5662D0006CD16 /* TaskCell.swift in Sources */,
+				110D171627C8C6F500C4239C /* TaskModel.swift in Sources */,
+				11CE011827F028EC00E5E0DA /* VM-TaskDelegate.swift in Sources */,
+				11CE00F027F0010900E5E0DA /* VM-ValidateLogIn.swift in Sources */,
+				11EFC08F280D2472003B2A1D /* Validate.swift in Sources */,
+				1193DBC927D5B11100CCD5EA /* SM.swift in Sources */,
+				1193DBBB27D1E7CD00CCD5EA /* RegisterVC.swift in Sources */,
+				114E6DB627E8291700209A8A /* TaskDB.swift in Sources */,
+				1193DBBF27D2BC5400CCD5EA /* DB.swift in Sources */,
+				11CE011627F0283900E5E0DA /* VM-ProfileIMG.swift in Sources */,
+				11CD0CEB27C29B62003176A1 /* takViewModel.swift in Sources */,
 				11CD0CD527C26976003176A1 /* AppDelegate.swift in Sources */,
 				11CD0CD727C26976003176A1 /* SceneDelegate.swift in Sources */,
+				11CD0CE927C26F4C003176A1 /* extension.swift in Sources */,
+				110D171A27C9627F00C4239C /* addNewTask.swift in Sources */,
+				11CE011A27F0299000E5E0DA /* VM-TaskDatafunc.swift in Sources */,
+				11049E0D27C511550006CD16 /* WeakDateCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		11CD0CDA27C26976003176A1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11CD0CDB27C26976003176A1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		11CD0CDF27C269AC003176A1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +446,7 @@
 		};
 		11CD0CE627C269AC003176A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1646E95406EED0AF3BAE2A37 /* Pods-Task app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +464,7 @@
 		};
 		11CD0CE727C269AC003176A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80B48CC3C8AE3305873FC72 /* Pods-Task app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
